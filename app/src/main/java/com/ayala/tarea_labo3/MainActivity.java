@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.ayala.tarea_labo3.utils.AppConstant;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText mUser, mPassword, mEmail, mGender;
@@ -28,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
             String correo= mEmail.getText().toString();
             String genero= mGender.getText().toString();
             Intent mIntent= new Intent(MainActivity.this, SecondActivity.class);
-            mIntent.putExtra("key_user", usuario);
-            mIntent.putExtra("key_pass", contraseña);
-            mIntent.putExtra("key_email", correo);
-            mIntent.putExtra("key_genero", genero);
+            mIntent.putExtra(AppConstant.Key_user, usuario);
+            mIntent.putExtra(AppConstant.key_pass, contraseña);
+            mIntent.putExtra(AppConstant.key_email, correo);
+            mIntent.putExtra(AppConstant.key_genero, genero);
             startActivity(mIntent);
         });
 

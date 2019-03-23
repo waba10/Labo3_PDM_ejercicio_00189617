@@ -24,10 +24,10 @@ public class SecondActivity extends AppCompatActivity {
 
         Intent mIntent= getIntent();
         if (mIntent!=null) {
-            mTextUser.setText(mIntent.getStringExtra("key_user"));
-            mTextPass.setText(mIntent.getStringExtra("key_pass"));
-            mTextEmail.setText(mIntent.getStringExtra("key_email"));
-            mTextGender.setText(mIntent.getStringExtra("key_genero"));
+            mTextUser.setText(mIntent.getStringExtra(AppConstant.Key_user));
+            mTextPass.setText(mIntent.getStringExtra(AppConstant.key_pass));
+            mTextEmail.setText(mIntent.getStringExtra(AppConstant.key_email));
+            mTextGender.setText(mIntent.getStringExtra(AppConstant.key_genero));
         }
 
         mButtonShare.setOnClickListener(v->{
