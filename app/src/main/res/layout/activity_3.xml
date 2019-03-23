@@ -12,7 +12,7 @@
         android:id="@+id/tv_final"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bebesitaa"
+        android:text="Filters"
         android:gravity="center"/>
 
 </LinearLayout>
