@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tarea_labo3</string>
+    <string name="genero">Gender</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="boton_enviar">Submit</string>
+    <string name="btn_share">Share</string>
+</resources>
